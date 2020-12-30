@@ -1,0 +1,134 @@
+/* цвет логотипа  #2196F3  #000000 */
+
+/* + цвет текста и емейла #757575 */
+
+/* + цвет навигации #212121 */
+
+/* + навигации при наведении #2196F3 и бекграунд кнопки в герое */
+
+/* + цвет текста героя #FFFFFF */
+
+/*  + цвет заголовка 2 и 3 #212121 */
+
+/* цвет емейла и телефона в футере  rgba(255, 255, 255, 0.6) */
+
+/* + бекграунд секции наша команда #F5F4FA */
+
+/* + бекграунд подваал #2F303A */
+
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --footer-email-tel: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site navigation */
+
+.logo {
+}
+
+.logo.web {
+  color: #2196f3;
+}
+.logo.studio {
+  color: #000000;
+}
+
+.nav .nav-link {
+  color: var(--title-color);
+  background-color: #fff;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+  color: var(--accent-color);
+}
+.nav .current {
+  color: var(--accent-color);
+}
+
+.contacts {
+  color: var(--text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--hero-background-color);
+}
+
+.hero-title {
+  color: var(--hero-title-color);
+}
+
+.hero-button {
+  color: var(--hero-title-color);
+}
+
+/* Section features */
+
+.features {
+}
+
+.features .features-title {
+  color: var(--title-color);
+}
+
+.features .features-text {
+  color: var(--text-color);
+}
+
+/* What are we doing */
+.directions {
+  color: var(--title-color);
+}
+
+/* Our team */
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.team-title {
+  color: var(--title-color);
+}
+
+.team-name {
+  color: var(--title-color);
+}
+
+.team-position {
+  color: var(--text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-studio {
+  color: var(--hero-title-color);
+}
+
+.footer-address {
+  color: var(--hero-title-color);
+}
+
+.footer-email {
+  color: var(--footer-email-tel);
+}
