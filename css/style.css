@@ -23,6 +23,7 @@
   --hero-title-color: #ffffff;
   --hero-background-color: #2f303a;
   --team-background-color: #f5f4fa;
+  --logo-black-color: #000000;
   --footer-background-color: #2f303a;
   --footer-email-tel: rgba(255, 255, 255, 0.6);
 }
@@ -31,33 +32,64 @@
   list-style: none;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  background-color: var(--hero-title-color);
+  color: var(--text-color);
+}
+
 /* Site navigation */
 
+.nav {
+  font-weight: 500;
+}
+
 .logo {
-}
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
 
-.logo.web {
-  color: #2196f3;
-}
-.logo.studio {
-  color: #000000;
-}
-
-.nav .nav-link {
-  color: var(--title-color);
-  background-color: #fff;
-}
-
-.nav .nav-link:hover,
-.nav .nav-link:focus {
   color: var(--accent-color);
 }
-.nav .current {
+
+.header-studio {
+  color: var(--logo-black-color);
+}
+
+.nav-list {
+  letter-spacing: 0.02em;
+}
+
+.current {
+  text-decoration: none;
+
+  color: var(--accent-color);
+}
+
+.nav-link {
+  text-decoration: none;
+
+  color: var(--title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
 .contacts {
-  color: var(--text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+  color: inherit;
 }
 
 .contacts:hover,
@@ -72,11 +104,22 @@
 }
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+
   color: var(--hero-title-color);
 }
 
 .hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
   color: var(--hero-title-color);
+  background-color: var(--accent-color);
 }
 
 /* Section features */
@@ -84,16 +127,22 @@
 .features {
 }
 
-.features .features-title {
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+
   color: var(--title-color);
 }
 
-.features .features-text {
-  color: var(--text-color);
+.features-text {
+  line-height: 1.7;
 }
 
 /* What are we doing */
 .directions {
+  font-weight: 700;
+  font-size: 36px;
+
   color: var(--title-color);
 }
 
@@ -104,15 +153,21 @@
 }
 
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+
   color: var(--title-color);
 }
 
 .team-name {
+  font-weight: 500;
+  font-size: 16px;
+
   color: var(--title-color);
 }
 
 .team-position {
-  color: var(--text-color);
+  font-size: 16px;
 }
 
 /* Footer */
@@ -126,9 +181,14 @@
 }
 
 .footer-address {
+  line-height: 1.7;
+  font-style: normal;
+  text-decoration: none;
   color: var(--hero-title-color);
 }
 
 .footer-email {
+  line-height: 1.7;
+  text-decoration: none;
   color: var(--footer-email-tel);
 }
