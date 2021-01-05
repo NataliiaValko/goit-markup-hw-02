@@ -30,6 +30,7 @@
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -50,7 +51,7 @@ body {
 }
 
 .logo {
-  text-decoration: none;
+  text-decoration: inherit;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -67,13 +68,13 @@ body {
 }
 
 .current {
-  text-decoration: none;
+  text-decoration: inherit;
 
   color: var(--accent-color);
 }
 
 .nav-link {
-  text-decoration: none;
+  text-decoration: inherit;
 
   color: var(--title-color);
 }
@@ -87,7 +88,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
 
-  text-decoration: none;
+  text-decoration: inherit;
 
   color: inherit;
 }
@@ -183,12 +184,59 @@ body {
 .footer-address {
   line-height: 1.7;
   font-style: normal;
-  text-decoration: none;
+  text-decoration: inherit;
   color: var(--hero-title-color);
 }
 
 .footer-email {
   line-height: 1.7;
-  text-decoration: none;
+  text-decoration: inherit;
   color: var(--footer-email-tel);
+}
+
+/* Portfolio.html */
+
+.buttons {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: inherit;
+
+  color: var(--title-color);
+  background-color: var(--team-background-color);
+}
+
+.buttons:focus,
+.buttons:hover {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
+}
+
+.work-link {
+  text-decoration: inherit;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+
+.work-text {
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--text-color);
+}
+
+.work-description {
+  font-size: 18px;
+  line-height: 1.6;
+
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
 }
