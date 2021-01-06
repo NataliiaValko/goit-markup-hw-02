@@ -44,6 +44,10 @@ body {
   color: var(--text-color);
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Site navigation */
 
 .nav {
@@ -190,6 +194,10 @@ body {
   color: var(--footer-email-tel);
 }
 
+.footer-email:hover,
+.footer-email:focus {
+  color: var(--accent-color);
+}
 /* Portfolio.html */
 
 .buttons {
