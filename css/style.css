@@ -10,10 +10,6 @@
   --footer-email-tel: rgba(255, 255, 255, 0.6);
 }
 
-.list {
-  list-style: none;
-}
-
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -23,6 +19,10 @@ body {
 
   background-color: var(--hero-title-color);
   color: var(--text-color);
+}
+
+.list {
+  list-style: none;
 }
 
 .link {
@@ -187,18 +187,13 @@ button {
 }
 
 .buttons:focus,
-.buttons:hover,
-.work-description {
+.buttons:hover {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
 }
 
-.work-title,
-.work-description {
-  font-size: 18px;
-}
-
 .work-title {
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -208,8 +203,4 @@ button {
   line-height: 1.9;
 
   color: var(--text-color);
-}
-
-.work-description {
-  line-height: 1.6;
 }
