@@ -33,7 +33,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -52,7 +52,7 @@ body {
 
 .nav-link {
   font-weight: 500;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.32px;
 
   color: var(--dark-color-main);
@@ -69,7 +69,7 @@ body {
 }
 
 .contacts-link {
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.32px;
 
   color: var(--text-color-main);
@@ -90,7 +90,7 @@ body {
 
   font-size: 56px;
   font-weight: 700;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   letter-spacing: 1.12px;
 
   color: var(--white-color);
@@ -99,8 +99,9 @@ body {
 .hero-button {
   font-family: inherit;
   font-weight: 500;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.64px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 
   color: var(--white-color);
   background-color: var(--brand-color);
@@ -118,7 +119,7 @@ body {
   text-align: center;
 
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 
@@ -128,13 +129,14 @@ body {
 .features-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: calc(24 / 20);
+  line-height: 1.2;
   letter-spacing: 0.4px;
 
   color: var(--dark-color-main);
 }
+
 .features-text {
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -142,7 +144,7 @@ body {
   background-color: var(--light-color-main);
 }
 
-.team-details {
+.team-item {
   background-color: var(--white-color);
 }
 .team-name {
@@ -150,7 +152,7 @@ body {
 
   font-size: 20px;
   font-weight: 500;
-  line-height: calc(24 / 20);
+  line-height: 1.2;
   letter-spacing: 0.4px;
 
   color: var(--dark-color-main);
@@ -159,7 +161,7 @@ body {
 .team-position {
   text-align: center;
 
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -168,7 +170,7 @@ body {
 }
 
 .footer-text {
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.32px;
 
   color: var(--light-color-main);
@@ -181,7 +183,7 @@ body {
 
   font-size: 56px;
   font-weight: 700;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   letter-spacing: 1.12px;
 
   color: var(--text-color-main);
@@ -192,8 +194,9 @@ body {
 
   font-family: inherit;
   font-weight: 500;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.64px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 
   color: var(--brand-color);
   background-color: var(--light-color-main);
@@ -203,8 +206,7 @@ body {
 
 .filter-button:hover,
 .filter-button:focus,
-.filter-button:active,
-.filter-button.current {
+.filter-button:active {
   color: var(--white-color);
   background-color: var(--pressed-color);
 }
@@ -212,14 +214,14 @@ body {
 .cards-name {
   font-size: 20px;
   font-weight: 500;
-  line-height: calc(24 / 20);
+  line-height: 1.2;
   letter-spacing: 0.4px;
 
   color: var(--dark-color-main);
 }
 
 .cards-type {
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.32px;
 
   color: var(--text-color-main);
